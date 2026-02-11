@@ -3,8 +3,8 @@ name: First CI Job
 on: [push]
 
 jobs:
-simple-job:
-runs-on: ubantu-latest
-steps:
--name: print message
-run: echo "CI is running successfully"
+  simple-job:
+   runs-on: ubantu-latest
+   steps:
+   -name: print message
+   run: echo "CI is running successfully"
