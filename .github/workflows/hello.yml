@@ -1,0 +1,6 @@
+name: First CI Job
+
+on: [push]
+
+jobs:
+
